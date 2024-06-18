@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color:#fff4df;
+    
+}
+h1 {
+    text-align: center; 
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    
+    
+}
+
+h2 {
+    text-align: center; 
+    color:white;
+    font-weight: 300;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: justify;
+    font-size:18px;
+    text-align: center; 
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+h3 {
+    text-align: center; 
+    color:white;
+    font-weight: 300;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+
+h1,body { margin: 0;}
+
+header {
+    width: 100%;
+    padding-top: 15px;
+    height: 45vh;
+    background-color:#b20808;
+    color: white;
+    text-align: center;
+
+}
+
+header a {
+    background-color: white;
+    font-weight: 400;
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: black;
+    border: 1px dashed white;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    line-height: 30px;
+    transition: all 3s;
+
+}
+
+a:hover {
+background-color: orange;
+border-color: white;
+color: white;
+
+
+}
+
+
+main {
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+
+video { width: 40%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 15px;
+
+}
+
+div {
+    
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+
+img { width: 100%;
+display: block; 
+border-radius: 15px;}
